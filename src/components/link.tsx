@@ -1,5 +1,5 @@
-import { ILink } from "../mock/ILink";
 import ListGroup from "react-bootstrap/ListGroup";
+import { ILink } from "../Store/Type/ILink";
 import ListItem from "../style/componets/list";
 
 type Props = {

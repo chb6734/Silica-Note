@@ -1,6 +1,6 @@
 import { delay, put, takeEvery, takeLatest } from "redux-saga/effects";
-import { ILink } from "../mock/ILink";
-import { Test } from "../mock/LinkData";
+import { ILink } from "../Store/Type/ILink";
+import { Test } from "../../public/mock/LinkData";
 
 /* 액션 타입 */
 const URL = "link/URL" as const;

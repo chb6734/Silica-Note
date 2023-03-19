@@ -1,6 +1,4 @@
-import { ILink } from "./ILink";
 
-export const Test: ILink[] = [
   {
     id: 1,
     title: "REACT",
@@ -252,5 +250,4 @@ export const Test: ILink[] = [
     content: "https://ko.reactjs.org/",
     userName: "TEST User",
     date: new Date(),
-  },
-];
+  }

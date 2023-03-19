@@ -1,5 +1,5 @@
 import { INotice } from "../api/notice";
-import { Test } from "../mock/NoticeData";
+import { Test } from "../../public/mock/NoticeData";
 
 /* 액션 타입 */
 const NOTICE = "notice/List" as const;
@@ -14,7 +14,7 @@ type actionNotice = ReturnType<typeof actionFuncNotice>;
 
 /* 리덕스 상태 타입 정의 */
 type stateType = {
-  list: INotice[],
+  list: INotice[];
 };
 
 /* 상태 초기화 */
